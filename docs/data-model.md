@@ -39,6 +39,6 @@ Students can enroll in multiple Courses, and each Course can have multiple Stude
 
 ### StudentCard and CourseDescription
 
-Each Student has one StudentCard, and each Course has one CourseDescription.
+Each Student can have at most one StudentCard, and each Course can have at most one CourseDescription. The related card or description is not required to exist.
 
 Both relationships use OneToOneField.

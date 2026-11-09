@@ -26,3 +26,8 @@ htmlcov/
 
 # OS
 .DS_Store
+
+# Local development tools
+.agents/
+.codex/
+.aws/
