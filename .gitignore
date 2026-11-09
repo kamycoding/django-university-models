@@ -13,6 +13,7 @@ db.sqlite3
 # Environment variables
 .env
 .env.*
+!.env.example
 
 # Testing
 .pytest_cache/
@@ -25,3 +26,8 @@ htmlcov/
 
 # OS
 .DS_Store
+
+# Local development tools
+.agents/
+.codex/
+.aws/
